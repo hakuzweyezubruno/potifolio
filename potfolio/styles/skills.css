@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #020617;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+.skills {
+    text-align: center;
+    padding: 30px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill-box {
+    background: #020617;
+    padding: 20px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.skill-box i {
+    font-size: 40px;
+    color: #38bdf8;
+}
+
+.skill-box h3 {
+    margin: 10px 0;
+}
+.progress {
+    background: #1e293b;
+    height: 8px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background: #38bdf8;
+    width: 0;
+}
+
+.progress-bar.html {
+    width: 90%;
+}
+
+.progress-bar.css {
+    width: 80%;
+}
+
+.progress-bar.js {
+    width: 60%;
+}
+
+@media (min-width: 600px) {
+    .skills-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skill-box {
+        width: 200px;
+    }
+}
+
+@media (min-width: 900px) {
+    .skills-container {
+        gap: 30px;
+    }
+
+    .skill-box {
+        width: 220px;
+    }
+}
+footer {
+    background: #020617;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.footer-social a img{
+    width: 60px;
+    height: 60px;
+}
