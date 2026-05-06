@@ -28,7 +28,6 @@ section {
     text-align: center;
 }
 
-/* RESPONSIVE DESIGN */
 @media (max-width: 600px) {
     header {
         flex-direction: column;
@@ -40,16 +39,14 @@ section {
         padding: 0;
     }
 }
-/* ABOUT SECTION */
+
 .about {
     text-align: center;
     padding: 30px;
 }
 
-/* CARD LAYOUT */
 .about-card {
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 20px;
 
@@ -60,19 +57,16 @@ section {
     margin: auto;
 }
 
-/* IMAGE */
 .about-image img {
     width: 180px;
     border-radius: 50%;
 }
 
-/* INFO TEXT */
 .about-info p {
     margin: 8px 0;
     font-size: 16px;
 }
 
-/* TABLET */
 @media (min-width: 600px) {
     .about-card {
         flex-direction: row;
@@ -84,7 +78,6 @@ section {
     }
 }
 
-/* DESKTOP */
 @media (min-width: 900px) {
     .about-card {
         padding: 30px;
@@ -95,14 +88,14 @@ section {
         font-size: 18px;
     }
 }
-/* ===== FOOTER ===== */
+
 footer {
     background: #020617;
     padding: 20px;
     margin-top: 40px;
 }
 
-/* CONTAINER */
+
 .footer-content {
     display: flex;
     flex-direction: column;
@@ -110,13 +103,11 @@ footer {
     gap: 15px;
 }
 
-/* TEXT */
 .footer-text {
     font-size: 14px;
     color: #94a3b8;
 }
 
-/* SOCIAL ICONS */
 .footer-social {
     display: flex;
     gap: 15px;
